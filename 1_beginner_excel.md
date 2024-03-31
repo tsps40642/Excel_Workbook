@@ -1,4 +1,4 @@
-# Excel_Workbook_Beginner
+# Beginner_Excel_Workbook
 This is a repository for some useful Excel notes.  
 
 ## Moving direction
