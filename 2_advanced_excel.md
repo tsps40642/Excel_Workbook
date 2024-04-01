@@ -32,6 +32,21 @@ In Table Design tab -> Total Row -> will add a row at the bottom of the table th
 2. In Data tab -> Sort & Filter -> Sort -> Add Level for multiple columns sorting
 
 ## Subtotal 
-1. In Data tab -> Outline -> Subtotal: when hitting a difference in a column, it will calculate a function
-2. Select the column you want subtotla in "each change in", and select the columns you want to calculate subtotal in "Add subtotal to"
-3. There will be different level for the sheet now 
+1. Important to first sort your columns or you won't get the correct subtotal! 
+2. In Data tab -> Outline -> Subtotal: when hitting a difference in a column, it will calculate a function
+3. Select the column you want subtotla in "each change in", and select the columns you want to calculate subtotal in "Add subtotal to"
+4. There will be different level for the sheet now 
+
+## Quick analysis 
+Control + A to select the whole list/table -> click Quick Analysis on the bottom right 
+
+## Charts
+### Create a chart and update the data 
+1. In Insert tab -> Recommended Chart to pick the one you want to use
+2. If later you add new columns or rows into the original list/table, the chart already created won't include newly added
+3. To include the new added data: in Chart Design -> Select Data to reselect
+
+### Change chart type 
+In Chart Design -> Change Chart Type -> Combo, it allows you to select type for each column (I select barchart for Week 1-4 and line for Sum)   
+
+## 
