@@ -71,4 +71,26 @@ It shows the line mimicing the data s.t. you can see the trend of it. There are 
 ### Edit the sparkline 
 Select the sparkline you want to edit -> Sparkline tab -> Marker Color -> can mark Low Point, High Point, etc. 
 
+## Pivot tables
+### Create a PivotTable
+1. Click a cell + control T to create a table
+2. In the Table Design tab -> rename the table
+3. Tools -> Summarize with PivotTable (and since we already named the table so Table/Range will select this table)
+4. Choose New Worksheet to place the PivotTable
+5. Rename the created PivotTable
+6. Can customize the setting of PivotTable Fields: change columns order, chance display, etc.
+
+### Add a slicer
+1. Drag Salesperson into "Rows" or "Columns"
+2. Drag Revenue into "Values"
+3. In PivotTable Analyze -> Filter -> Insert Slicer -> select Salesperson to create its visual slicer 
+
+### Add a timeline 
+1. Make sure you have columns representing time in your data
+2. In PivotTable Analyze -> Filter -> Insert Timeline -> select Order Date
+
+### PivotChart 
+It's the visualization of the report.  
+In PivotTable Analyze -> Tools -> PivotChart -> select the chart form you want 
+
 ## 
