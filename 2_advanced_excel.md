@@ -41,12 +41,12 @@ In Table Design tab -> Total Row -> will add a row at the bottom of the table th
 Control + A to select the whole list/table -> click Quick Analysis on the bottom right 
 
 ## Charts
-### Create a chart and update the data 
+#### Create a chart and update the data 
 1. In Insert tab -> Recommended Chart to pick the one you want to use
 2. If later you add new columns or rows into the original list/table, the chart already created won't include newly added
 3. To include the new added data: in Chart Design -> Select Data to reselect
 
-### Change chart type 
+#### Change chart type 
 In Chart Design -> Change Chart Type -> Combo, it allows you to select type for each column (I select barchart for Week 1-4 and line for Sum)   
 
 ## 
