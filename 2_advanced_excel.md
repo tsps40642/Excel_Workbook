@@ -41,12 +41,34 @@ In Table Design tab -> Total Row -> will add a row at the bottom of the table th
 Control + A to select the whole list/table -> click Quick Analysis on the bottom right 
 
 ## Charts
-#### Create a chart and update the data 
+### Create a chart and update the data 
 1. In Insert tab -> Recommended Chart to pick the one you want to use
 2. If later you add new columns or rows into the original list/table, the chart already created won't include newly added
 3. To include the new added data: in Chart Design -> Select Data to reselect
 
-#### Change chart type 
+### Change chart type 
 In Chart Design -> Change Chart Type -> Combo, it allows you to select type for each column (I select barchart for Week 1-4 and line for Sum)   
+
+### Edit the chart
+Further edit legend, title, and columns by clicking "+" on the top right
+
+### Save the chart as a template 
+So that we can use our own template and keep charts consistent, don't need to edit its look again.  
+1. Right click the chart -> Save as Template...
+2. The next time when you want to use your template: in Insert tab -> Recommended Chart -> All charts -> Template
+
+## Sparkline 
+It shows the line mimicing the data s.t. you can see the trend of it. There are 2 ways to do this:  
+### In the Insert tab 
+1. Select the row you want to investigate -> in Insert tab -> Sparklines
+2. Data Range (already select), Location Range (the place you want to put that sparkline)
+3. Can copy to other rows by dragging down on the bottom right (auto fill)
+
+### In the Quick Analysis 
+1. Select the row you want to investigate -> in Insert tab -> Quick Analysis -> Sparkline, then select the form you want
+2. If having negative value -> can use Win/Loss s.t. it will mark the negative automatically 
+
+### Edit the sparkline 
+Select the sparkline you want to edit -> Sparkline tab -> Marker Color -> can mark Low Point, High Point, etc. 
 
 ## 
