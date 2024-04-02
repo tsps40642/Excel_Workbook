@@ -73,12 +73,17 @@ Select the sparkline you want to edit -> Sparkline tab -> Marker Color -> can ma
 
 ## Pivot tables
 ### Create a PivotTable
+Use Summarize with PivotTable:  
 1. Click a cell + control T to create a table
 2. In the Table Design tab -> rename the table
 3. Tools -> Summarize with PivotTable (and since we already named the table so Table/Range will select this table)
 4. Choose New Worksheet to place the PivotTable
 5. Rename the created PivotTable
 6. Can customize the setting of PivotTable Fields: change columns order, chance display, etc.
+
+Or use Insert PivotTable: 
+1. Click a cell + control T to create a table
+2. In the Insert tab -> PivotTable -> select "Add this Data to the Data Model" (to create a model based on just one table) 
 
 ### Add a slicer
 1. Drag Salesperson into "Rows" or "Columns"
