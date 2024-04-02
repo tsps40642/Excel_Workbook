@@ -93,4 +93,52 @@ Select the sparkline you want to edit -> Sparkline tab -> Marker Color -> can ma
 It's the visualization of the report.  
 In PivotTable Analyze -> Tools -> PivotChart -> select the chart form you want 
 
-## 
+### Format the PivotChart
+When we sort the data in the table, its PivotChart has inverse order since the table and the y-axis are inverse.   
+We can solve this problem by formatting axis:   
+Right click the y-axis of the PivotChart -> Format Axis -> select "Categories in reverse order"  
+
+### Other edit tips 
+At the PivotChart:  
+1. Hide field bottons: Right click the field bottom -> Hide All Field Bottons on Chart
+2. Click "+" on the top right to select Data Labels and other things you want  
+
+In the table:   
+1. Add dollar sign: Right click the data -> Number Format -> Currency
+2. In the Design tab -> Report Layout -> Layout -> Show in Outline Form, to have column name on the table, and other layout you want to add
+
+## Change data source
+Remember to create the table for the data that you also want to have a pivot table:  
+1. Click a cell + control T to create a table
+2. In the Table Design tab -> rename the table
+3. In PivotTable Analyze -> Change Data Source -> enter the table name we just built, so that you don't have to build anothr pivot table
+
+## Going into details
+Double click the value that you want to look at its details -> it will generate a table -> remane the sheet 
+
+## Data Validation
+Data validation make sure the data being input is correct.  
+1. Select the whole column of Sales Rep -> in the Data tab -> Data Tools -> Data Validation -> determine the Validation criteria (Allow, Source)
+2. Can enter the title and message for the users in the Iuput Message
+3. Can enter the title and message for the users in the Error Alert
+4. If want to change the value, one should change in the source we just select 
+
+## Conditional formats
+1. In the Home tab -> Conditional Formatting -> select the format you want
+2. Can also manage the rule by selecting Manage Rules
+3. Can also use Icon Sets -> then Manage Rules to edit it if you need
+4. Select the column name row -> in Data tab -> Filter: this can let you sort by the conditional format we just set
+
+## Comments and notes
+One can add comments or notes in a cell.  
+
+## Link the cell 
+1. In the same sheet in cell_2, type "= (select cell_1)" to link cell_1 and cell_2
+2. In the different sheet in sheet_2 cell_2, type "=Sheet_1!(select cell_1)" to link sheet_1 cell_1 and sheet_2 cell_2
+
+## Privacy and Protection 
+### Unlock cells you want uers to have access to
+Select the cells want to unlock -> right click -> Format Cells -> Protection -> unselect "Locked"
+
+### Protect the worksheet i.e. enables the protection
+In the Review tab -> Protect -> select the fields that you allow users to access
