@@ -85,6 +85,9 @@ Or use Insert PivotTable:
 1. Click a cell + control T to create a table
 2. In the Insert tab -> PivotTable -> select "Add this Data to the Data Model" (to create a model based on just one table) 
 
+### Grand total
+To remove/add grand total: In Design tab -> Grand Totals -> off/on 
+
 ### Add a slicer
 1. Drag Salesperson into "Rows" or "Columns"
 2. Drag Revenue into "Values"
